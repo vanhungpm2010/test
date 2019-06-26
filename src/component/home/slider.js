@@ -13,11 +13,17 @@ class Slide extends Component {
             autoplay: true,
             autoplaySpeed: 2000
           };
+        const listImg = ['1.jpg','2.jpg', '3.jpg', '2.jpg'];
         return (
             <Container>
                 <h2>ALL NOVELS</h2>
                 <Slider {...settings}>
-                <div>
+                { listImg.map((e,i) =>
+                    <div key={i}>
+                        <img src={"image/" + e}/>
+                    </div>
+                )}
+                {/* <div>
                     <img src="image/1.jpg"/>
                 </div>
                 <div>
@@ -28,7 +34,7 @@ class Slide extends Component {
                 </div>
                 <div>
                     <img src="image/2.jpg"/>
-                </div>
+                </div> */}
                 </Slider>
             </Container>
         )

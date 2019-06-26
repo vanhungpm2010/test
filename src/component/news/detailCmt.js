@@ -2,6 +2,19 @@ import React, {Component} from 'react';
 
 class DetailCmt extends Component{
     render(){
+        const listCmt = [
+            { 
+                img: 'p1.png',
+                name: 'Erick Smith',
+                cmt: 'Wow! Check out these fan art drawings of Justin Bieber from Bella Priema Leza on Instagram.'
+            },
+            { 
+                img: 'p2.png',
+                name: 'Alex Minash',
+                cmt: "I will send Justin Bieber's Whats App to the first 2.000 people who like this comment and follow me."
+            }
+            
+        ]
         return (
             <div className="comment-detail">
                 <div className="cmt-header">
@@ -22,7 +35,17 @@ class DetailCmt extends Component{
                         </div>
                     </div>     
                 </div>
-                <div className="cmt-content">
+                { listCmt.map((e,i)=>
+                    <div className="cmt-content" key={i}>
+                        <img src={"image/" + e.img} />
+                        <div className="infor">
+                            <h4>{e.name}</h4>
+                            <p>{e.cmt}</p>
+                        </div>
+                    </div>
+                )}
+                
+                {/* <div className="cmt-content">
                     <img src="image/p1.png" />
                     <div className="infor">
                         <h4>Erick Smith</h4>
@@ -35,7 +58,7 @@ class DetailCmt extends Component{
                         <h4>Alex Minash</h4>
                         <p>I will send Justin Bieber's Whats App to the first 2.000 people who like this comment and follow me.</p>
                     </div>
-                </div>
+                </div> */}
                 <div className="cmt-4u">
                     <img src="image/p3.png" />
                     <input type="text" placeholder="Your comment"/>
