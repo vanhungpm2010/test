@@ -1,0 +1,455 @@
+<style>
+  #home {
+    background-image: url('../../assets/img/bg_1.jpg');
+    width: 100%;
+    height: 862px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  .slider-home .ftco-animate {
+    padding-top: 300px;
+  }
+
+  .subheading {
+    font-family: 'Pacifico';
+    font-size: 30px;
+    color: #c49b63;
+  }
+
+  .mb-4.a1 {
+    color: #ffffff;
+  }
+
+  .mb-4.mb-md-5.a2 {
+    color: #ffffff;
+  }
+
+  .btn-custom {
+    border-width: 2px;
+    font-weight: 600;
+    font-size: 0.8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 36px;
+    padding: 11px 22px;
+    cursor: pointer;
+    background-color: #66615B;
+    color: #FFFFFF;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+    outline: none;
+  }
+
+  .btn-primary {
+    background-color: #ff9c00;
+  }
+
+  .small-slider {
+    font-family: initial;
+  }
+
+  section.style-2 {
+    background-color: #f7f5f2;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-style: solid none;
+  }
+
+  .blog-site {
+    padding: 50px 0;
+  }
+
+  .blog-site.row {
+    padding: 0;
+    margin: 0;
+  }
+
+  .blog-site .section-heading {
+    padding-bottom: 28px;
+    font-family: monospace;
+  }
+
+  .blog-site .posts article {
+    padding-bottom: 20px;
+  }
+
+  .opening-hours ul {
+    display: table;
+    margin: 0;
+    padding: 0 !important;
+    width: 100%;
+  }
+
+  .opening-hours li {
+    border-left: 1px solid #ebebeb;
+    display: table-cell;
+    padding: 53px 30px;
+  }
+
+  .opening-hours li:first-of-type {
+    border: none;
+    padding-left: 0;
+  }
+
+  .opening-hours li h5,
+  .opening-hours li h6 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .ftco-section {
+    background-image: url(../../assets/img/bg_4.jpg);
+    padding: 82px 0;
+  }
+
+  .subheading {
+    font-family: "Pacifico";
+    color: rgb(196, 155, 99);
+    display: block;
+    line-height: 2.3;
+    margin-bottom: -48px;
+    font-size: 48px;
+  }
+
+  h2.mb-4 {
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+  p.mb-4 {
+    color: gray;
+    font-family: '"Montserrat", "Helvetica Neue", Arial, sans-serif';
+  }
+
+  img.img-m1 {
+    background-image: url(../../assets/img/menu-1.jpg)
+  }
+
+  img.img-m2 {
+    background-image: url(../../assets/img/menu-2.jpg)
+  }
+
+  img.img-m3 {
+    background-image: url(../../assets/img/menu-3.jpg)
+  }
+
+  img.img-m4 {
+    background-image: url(../../assets/img/menu-4.jpg)
+  }
+
+  img.img {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  section.contact {
+    background-color: #f7f5f2;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-style: solid none;
+    padding: 82px 0;
+  }
+
+  .contact .section-heading {
+    padding-bottom: 50px;
+  }
+
+  .contact-info {
+    font-family: none;
+    font-size: 14px;
+    list-style: none;
+    margin: 30px 0;
+    padding: 0;
+  }
+
+  .contact-info li {
+    margin-bottom: 5px;
+  }
+
+  .contact-info i {
+    color: #ff9c00;
+    width: 25px;
+  }
+
+  .contact-info li a {
+    color: #c49b63;
+  }
+
+  .contact .contact-header {
+    font-family: none;
+    margin: 0 0 10px;
+    font-size: 14px;
+  }
+
+  input,
+  textarea {
+    font-family: none;
+    background-color: #f2eee9;
+    border: 1px solid #dfd7cc;
+    border-radius: 1px;
+    color: #a59887;
+    height: 41px;
+    font-size: 17px;
+    max-width: 100%;
+    padding: 7px 18px;
+    vertical-align: middle;
+    width: 100%;
+    -moz-appearance: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  section.contact {
+    background-color: #f7f5f2;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-style: solid none;
+    padding: 82px 0;
+  }
+
+  .contact .section-heading {
+    padding-bottom: 50px;
+  }
+
+  .contact-info {
+    font-family: none;
+    font-size: 14px;
+    list-style: none;
+    margin: 30px 0;
+    padding: 0;
+  }
+
+  .contact-info li {
+    margin-bottom: 5px;
+  }
+
+  .contact-info i {
+    color: #ff9c00;
+    width: 25px;
+  }
+
+  .contact-info li a {
+    color: #c49b63;
+  }
+
+  .contact .contact-header {
+    font-family: none;
+    margin: 0 0 10px;
+    font-size: 14px;
+  }
+
+  input,
+  textarea {
+    font-family: none;
+    background-color: #f2eee9;
+    border: 1px solid #dfd7cc;
+    border-radius: 1px;
+    color: #a59887;
+    height: 41px;
+    font-size: 17px;
+    max-width: 100%;
+    padding: 7px 18px;
+    vertical-align: middle;
+    width: 100%;
+    -moz-appearance: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+</style>
+<div id="home" class="parallax hidden-xs slider-home">
+  <div class="container">
+    <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+      <div class="col-md-8 col-sm-12 text-center ftco-animate">
+        <span class="subheading">Welcome</span>
+        <h1 class="mb-4 a1">Amazing Taste &amp; Beautiful Place</h1>
+        <p class="mb-4 mb-md-5 a2 small-slider">A small river named Duden flows by their place and supplies it with the
+          necessary regelialia.</p>
+        <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3 btn-custom">Order Now</a> <a href="#"
+            class="btn btn-info p-3 px-xl-4 py-xl-3 btn-custom">View Menu</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="style-2">
+  <div class="container blog-site">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="section-heading text-center">Always fresh, don't miss it</h2>
+      </div>
+      <div class="posts row">
+        <article class="col-md-4 col-sm-6">
+          <div class="view overlay zoom">
+            <img src="../../assets/img/recent-post-1.jpg" class="img-fluid " alt="smaple image">
+            <div class="mask flex-center">
+              <p class="white-text">fresh salad for a hot summer</p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 col-sm-6">
+          <div class="view overlay">
+            <img src="../../assets/img/recent-post-2.jpg" class="img-fluid " alt="smaple image">
+            <div class="mask flex-center rgba-green-slight">
+              <p class="white-text">fresh salad for a hot summer</p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 col-sm-6">
+          <div class="view overlay zoom">
+            <img src="../../assets/img/recent-post-3.jpg" class="img-fluid " alt="smaple image">
+            <div class="mask flex-center">
+              <p class="white-text">fresh salad for a hot summer</p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 col-sm-6">
+          <div class="view overlay">
+            <img src="../../assets/img/recent-post-7.jpg" class="img-fluid " alt="smaple image">
+            <div class="mask flex-center rgba-green-slight">
+              <p class="white-text">fresh salad for a hot summer</p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 col-sm-6">
+          <div class="view overlay zoom">
+            <img src="../../assets/img/recent-post-5.jpg" class="img-fluid " alt="smaple image">
+            <div class="mask flex-center">
+              <p class="white-text">fresh salad for a hot summer</p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 col-sm-6">
+          <div class="view overlay">
+            <img src="../../assets/img/recent-post-6.jpg" class="img-fluid " alt="smaple image">
+            <div class="mask flex-center rgba-green-slight">
+              <p class="white-text">fresh salad for a hot summer</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="opening-hours">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul>
+          <li>
+            <h5 class="color">we are opened</h5>
+          </li>
+          <li>
+            <h6>mon</h6><br />9 - 22
+          </li>
+          <li>
+            <h6>tue:</h6><br />9 - 22
+          </li>
+          <li>
+            <h6>wed:</h6><br />9 - 22
+          </li>
+          <li>
+            <h6>thu:</h6><br />9 - 22
+          </li>
+          <li>
+            <h6>fri:</h6><br />9 - 22
+          </li>
+          <li>
+            <h6>sat:</h6><br />9 - 24
+          </li>
+          <li>
+            <h6>sun:</h6><br />9 - 24
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ftco-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 pr-md-5">
+        <div class="heading-section text-md-right ftco-animate">
+          <span class="subheading">Discover</span>
+          <h2 class="mb-4">Our Menu</h2>
+          <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+            live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean.</p>
+          <p><a [routerLink]="'/menu'" class="btn btn-primary btn-outline-primary px-4 py-3">View menu</a></p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="menu-entry">
+              <img href="#" class="img img-m1" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-entry mt-lg-4">
+              <img href="#" class="img img-m2" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-entry">
+              <img href="#" class="img img-m3" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-entry mt-lg-4">
+              <img href="#" class="img img-m4" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact style-2" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="section-heading text-center">contact us</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>contact details</h3>
+        <p class="contact-header">Dont be shy do contact us about everything and anything, we will be glad to answer
+          your questions about
+          kataleya.</p>
+        <ul class="contact-info">
+          <li><i class="fa fa-home"></i>51/39, Đường số 10, phường Linh Chiểu, Quận Thủ Đức</li>
+          <li><i class="fa fa-phone"></i>Phone: +84337 011 110</li>
+          <li><i class="fa fa-print"></i>Fax: +386 10 555 66677</li>
+          <li><i class="fa fa-envelope"></i>Email: <a href="mailto:thecaketea@gmail.com">thecaketea@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <form role="form" class="contact-form">
+          <div class="form-group">
+            <input type="email" placeholder="e-mail" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="phone" required />
+          </div>
+          <div class="form-group">
+            <textarea type="text" placeholder="message" required rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-md">submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
