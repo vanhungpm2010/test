@@ -10,6 +10,8 @@ import { MenuComponent } from '../../pages/client/menu/menu.component';
 import { BlogComponent } from '../../pages/client/blogs/blog.component';
 import { HomeComponent } from '../../pages/client/home/home.component';
 import { ClientLayoutComponent } from './client-layout.component';
+import { CartComponent } from '../../pages/client/cart/cart.component';
+import { ProductComponent } from '../../pages/client/product/product.component';
 
 @NgModule({
   imports: [
@@ -23,6 +25,8 @@ import { ClientLayoutComponent } from './client-layout.component';
     MenuComponent,
     BlogComponent,
     HomeComponent,
+    CartComponent,
+    ProductComponent
   ],
   schemas: [ NO_ERRORS_SCHEMA ],
 })
