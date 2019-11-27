@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "firstname": "Nguyen",
+    "lastname": "Hung",
+    "phone": "09665656565",
+    "adderess": "Binh thanh",
+    "birthday": "13/10/1998",
+    "email": "hungnv@gmail.com",
+    "fb": "stt.kid",
+    "isFavorite": true
+  },
+  {
+    "id": 2,
+    "firstname": "Tran",
+    "lastname": "Viet",
+    "phone": "0166565633",
+    "adderess": "Thu Duc",
+    "birthday": "02/05/1998",
+    "email": "viettv@gmail.com",
+    "fb": "viettrau",
+    "isFavorite": false
+  },
+  {
+    "id": 3,
+    "firstname": "Dang",
+    "lastname": "Tuan",
+    "phone": "0346454588",
+    "adderess": "Binh Duong",
+    "birthday": "08/01/1998",
+    "email": "tuandn@gmail.com",
+    "fb": "tuangay",
+    "isFavorite": false
+  },
+  {
+    "id": 4,
+    "firstname": "Nguyen",
+    "lastname": "Hoang",
+    "phone": "0545545455",
+    "adderess": "Thu duc",
+    "birthday": "16/09/1998",
+    "email": "hoangnv@gmail.com",
+    "fb": "hoang2cen",
+    "isFavorite": true
+  }
+]

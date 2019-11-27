@@ -1,0 +1,36 @@
+.ant-spin-nested-loading {
+  width: 94%;
+  margin: auto;
+}
+.ant-list-bordered.ant-list-sm .ant-list-header, .ant-list-bordered.ant-list-sm .ant-list-footer {
+  padding: 8px 10px;
+}
+.ant-input-affix-wrapper .ant-input {
+  background-color: #aba6a629;
+}
+.ant-list-bordered {
+  border: none;
+  border-radius: 0;
+}
+.ant-calendar-picker-input {
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  border-radius: 0;
+  outline: none;
+  margin-bottom: 15px;
+}
+.ant-calendar-picker-clear, .ant-calendar-picker-icon {
+  top: 36%;
+}
+.ant-form-item-label {
+  line-height: normal;
+}
+.ant-list-item {
+  cursor: pointer;
+}
+.ant-modal {
+  width: 220px !important;
+}
+.ant-message {
+  top: 30px;
+}
